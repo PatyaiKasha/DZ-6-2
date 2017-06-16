@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: sans-serif;
+    table {
+        border-collapse: collapse;
+    }
+}
+
+.task1,
+.task2,
+.task3,
+.task4 {
+    margin: 32px 0 0 0;
+}
+
+.task1 {
+    table {
+        td,
+        th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    }
+    tr {
+        td:nth-child(1) {
+            text-align: left;
+        }
+    }
+}
+
+.task2 {
+    table {
+        td,
+        th {
+            text-align: left;
+            width: 300px;
+            padding: 8px;
+        }
+        th {
+            border-bottom: 1px solid #D6D6D6;
+        }
+    }
+}
+
+.task3 {
+    table {
+        td,
+        th {
+            text-align: left;
+            width: 300px;
+            padding: 8px;
+            border-bottom: 1px solid #D6D6D6;
+        }
+    }
+}
+
+.task4 {
+    position: relative;
+    display: inline-block;
+    padding: 8px;
+    box-shadow: 0px 0px 16px 1px #222222;
+    border-radius: 5px;
+    color: #222222;
+    .btn {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #222222;
+        padding: 1px;
+        display: block;
+        border-radius: 50%;
+        right: -9px;
+        top: -9px;
+        box-shadow: 0px 0px 4px 1px #222222;
+        background-color: #fff;
+        .btn-close {
+            width: 16px;
+            height: 16px;
+            padding: 1px;
+            display: block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 16px;
+            font-weight: bold;
+            background-color: #222222;
+            color: #fff;
+        }
+    }
+    table {
+        td:first-child {
+            color: #E7242A;
+        }
+        tr:last-child {
+            border-bottom-style: hidden;
+        }
+        td,
+        th {
+            text-align: left;
+            padding: 8px 24px;
+            border-bottom: 1px solid #D6D6D6;
+        }
+        span {
+            display: inline-block;
+            padding: 8px;
+            background-color: #E7242A;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .btn-del {
+            padding: 6px;
+            background-color: #DC4E45;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+    .tfooter {
+        border-right: 5px solid #D6D6D6;
+        padding-right: 8px;
+        margin-top: 16px;
+        line-height: 1.5em;
+        span {
+            display: block;
+            text-align: right;
+        }
+        span:last-child {
+            color: #9F9995;
+        }
+    }
+    p {
+        font-style: italic;
+        text-align: center;
+        color: #E7242A;
+    }
+}
