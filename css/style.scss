@@ -99,6 +99,9 @@ body {
         tr:last-child {
             border-bottom-style: hidden;
         }
+        th {
+            line-height: 54px;
+        }
         td,
         th {
             text-align: left;
